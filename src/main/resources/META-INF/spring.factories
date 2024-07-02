@@ -1,0 +1,5 @@
+org.springframework.boot.env.EnvironmentPostProcessor=\
+  ru.goryacheva.springbootstarterhw.init.LogEnvironmentPostProcessor
+
+org.springframework.boot.diagnostics.AbstractFailureAnalyzer=\
+  ru.goryacheva.springbootstarterhw.init.LogFailureAnalyzer
