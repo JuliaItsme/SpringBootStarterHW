@@ -4,6 +4,9 @@ import org.springframework.boot.diagnostics.AbstractFailureAnalyzer;
 import org.springframework.boot.diagnostics.FailureAnalysis;
 import ru.goryacheva.springbootstarterhw.exception.LogRequestException;
 
+/**
+ * обработка исключение только тогда, когда оно действительно присутствует
+ */
 public class LogFailureAnalyzer extends AbstractFailureAnalyzer<LogRequestException> {
 
     @Override

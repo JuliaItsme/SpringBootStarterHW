@@ -13,6 +13,9 @@ import org.springframework.web.util.ContentCachingResponseWrapper;
 
 import java.io.IOException;
 
+/**
+ * фильтр
+ */
 //https://stackoverflow.com/questions/39935190/contentcachingresponsewrapper-produces-empty-response
 //https://www.baeldung.com/spring-reading-httpservletrequest-multiple-times
 @Slf4j
